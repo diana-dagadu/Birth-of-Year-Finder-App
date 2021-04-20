@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Birth Year Finder</title>
+<link href="style.css" rel="stylesheet">
+<link rel="icon" href="Exclusive-Logo-6.ico">
+        
+</head>
+
+<body>
+	<div id="header"><h1>Dee's Birth Year Finder App</h1></div>
+    <center>
+		<div class="image-area"></div>
+        <form style="margin-top:50px">
+            <input style="height:30px; width:350px; padding-left:10px; font-size: medium;" placeholder="Type Your Age..." type="number" name="number" id="number" />
+			<input style="height:35px; font-size: medium;" type="button" value="Find Year" id="button" />
+            <center><p id="year">Year</p></center>
+        </form>
+    </center>
+
+
+<script type="text/javascript">
+
+
+	function calculate() {
+	
+		var number = document.getElementById("number").value;
+		
+		if (number == "" || number == 0) {
+			
+			window.alert("Please type your correct age sha!");
+			return;
+		}
+		
+		var date = new Date().getFullYear();
+		
+		var birthyear = number - date;
+		
+		document.getElementById("year").style.display = "block";
+		document.getElementById("year").innerHTML = "Your birth year " + birthyear;
+
+		
+	}
+
+	document.getElementById("year").style.display = "none";
+	
+	document.getElementById("button").onclick = function() {  calculate();  };
+
+
+</script>
+
+
+
+</body>
+</html>

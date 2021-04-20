@@ -1,0 +1,35 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(241, 241, 8, 0.582);
+}
+
+#header {
+    background-color:#1b1c1de1;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+
+}
+h1 {
+    vertical-align: middle;
+    color: white;
+    font-weight: bolder;
+    font-size: 22px;
+    
+}
+.image-area {
+    background-image:url(images/flat-lay-desk-calendar-with-succulent-plant.jpg);
+    background-position: center;
+    background-color: black;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
+  #year {
+font-weight: bold;
+font-size: medium;
+font-style: italic;
+color: rgb(207, 6, 6);
+
+  }
