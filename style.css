@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgba(241, 241, 8, 0.582);
+    background-color: whitesmoke;
 }
 
 #header {
@@ -22,8 +22,8 @@ h1 {
     background-position: center;
     background-color: black;
     background-size: cover;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 180px;
+    padding-bottom: 150px;
   }
 
   #year {
@@ -33,3 +33,35 @@ font-style: italic;
 color: rgb(207, 6, 6);
 
   }
+
+#button {
+    background-color: tan;
+    color: black;
+    border-radius: 5px;
+}
+
+#number{
+    border-radius: 5px;
+}
+
+/* footer section styling */
+footer{
+    background: #1b1c1de1;
+    padding: 15px 23px;
+    color: #fff;
+    margin-top: 65px;
+    text-align: center;
+    margin-bottom: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+footer span a{
+    color: tan;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
